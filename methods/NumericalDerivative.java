@@ -1,8 +1,9 @@
 package methods;
+import methods.SupportMethods.Function;
 
 public class NumericalDerivative {
     
-    // Using Newton's finite differences formula
+    // Using Newton's finite differences formula (central difference)
     public static double numericalDerivative(double[] coefficients, double target){
         Function fx = new Function(coefficients);
         double interval = 0.00001;

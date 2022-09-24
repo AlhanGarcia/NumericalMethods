@@ -1,5 +1,5 @@
 package methods;
-
+import methods.SupportMethods.Function;
 
 public class NewtonRaphson {
     public static double newtonRaphson(double[] coefficients, double x0) throws Exception {

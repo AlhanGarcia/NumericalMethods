@@ -1,10 +1,11 @@
 package methods;
+import methods.SupportMethods.Function;
 
 public class Bisection {
     
     public static double bisection(double[] coefficients, double x0, double x1) throws Exception {
-        int degree = coefficients.length;
-        double tolerance = 1e-5;
+        final int degree = coefficients.length;
+        final double tolerance = 1e-5;
 
         double f0 = Function.evaluateFunction(coefficients, x0, degree);
         double f1 = Function.evaluateFunction(coefficients, x1, degree);
