@@ -1,10 +1,6 @@
 package methods;
 
-// x + y = 4
-// 2x - 3y = 9 
-// x = 4.2, y = -0.2
 public class GaussElimination {
-    //static int M = 10;
 
     public static void printMatrix(double a[][], int n) {
         for (int i = 0; i < n; i++) {
